@@ -11,7 +11,7 @@ function coloring(boxId){
         let g = Math.floor(Math.random()*256)
         let b = Math.floor(Math.random()*256)
         boxId.style.backgroundColor = `RGB(${r}, ${g}, ${b})`
-        boxId.innerText = `RGB(${r}, ${g}, ${b})`
+        
         }
 
        let seeColor
