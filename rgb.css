@@ -1,0 +1,67 @@
+
+#upperbody{
+    background-color: rgb(19, 181, 181);
+    height: 155px;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    }
+
+#rgb{
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+#instructions{
+    height: 15px;
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    justify-content: space-evenly;
+    color:  rgb(19, 181, 181);
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+#newcolors:hover{
+    background-color: rgb(19, 181, 181);
+    color: white;
+}
+
+#easy{
+    background-color: rgb(19, 181, 181);
+    color: white;
+}
+#hard:hover{
+    background-color: rgb(19, 181, 181);
+    color: white;
+    
+}
+
+#colors{
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    
+}
+.colorsclass{
+    font-size: large;
+    padding-top: 10%;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(81, 140, 120);
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 25px;
+}
+.box:active{
+    transform: scale(1.1);
+	transition: .1s;
+}
