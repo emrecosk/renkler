@@ -65,3 +65,12 @@
     transform: scale(1.1);
 	transition: .1s;
 }
+
+@media screen and (max-width: 600px) {
+    #colors {
+        height : 500px;
+    }
+    #upperbody {
+        height: 200px;
+    }
+}
