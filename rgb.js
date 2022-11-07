@@ -34,6 +34,7 @@ function coloring(boxId){
                 if (rgbEl.innerHTML === e.target.style.backgroundColor){
                 colorsEl.style.backgroundColor = e.target.style.backgroundColor
                 tryAgainEl.innerHTML = "TEBRİKLER"
+                 tryAgainEl.classList.add("blink")        
                  boxEl.forEach(function(el){
                         el.style.backgroundColor = e.target.style.backgroundColor
                 }) 
