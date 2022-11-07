@@ -14,19 +14,29 @@
 }
 
 #instructions{
-    height: 15px;
+    height: 35px;
     background-color: rgb(255, 254, 254);
     display: flex;
     justify-content: space-evenly;
     color:  rgb(19, 181, 181);
-    font-size: 12px;
-    padding: 0 15px;
+    font-size: 20px;
+    padding: 15px 15px;
 }
 
 #newcolors:hover{
     background-color: rgb(19, 181, 181);
     color: white;
 }
+.blink{
+    animation: blink 1s linear infinite;
+}
+
+        @keyframes blink{
+        0%{opacity: 0;}
+        50%{opacity: .5;}
+        100%{opacity: 1;}
+        }
+
 
 #easy{
     background-color: rgb(19, 181, 181);
