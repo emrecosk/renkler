@@ -1,7 +1,7 @@
 
 #upperbody{
     background-color: rgb(19, 181, 181);
-    height: 155px;
+    height: 175px;
     color: aliceblue;
     text-align: center;
     padding: 10px 0;
@@ -20,7 +20,7 @@
     justify-content: space-evenly;
     color:  rgb(19, 181, 181);
     font-size: 20px;
-    padding: 15px 15px;
+    padding: 5px 5px;
 }
 
 #newcolors:hover{
@@ -74,6 +74,16 @@
 .box:active{
     transform: scale(1.1);
 	transition: .1s;
+}
+
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
 }
 
 @media screen and (max-width: 600px) {
